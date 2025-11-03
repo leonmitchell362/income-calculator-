@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Monthly Take-Home Pay",
+  "version": "1.0.0",
+  "description": "Calculate monthly post-tax income from annual income and tax due.",
+  "action": {
+    "default_title": "Take-Home Calculator",
+    "default_popup": "popup.html"
+  }
+}
