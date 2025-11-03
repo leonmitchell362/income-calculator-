@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Take-Home Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Take-Home</h1>
+
+    <label>
+      Annual income before tax
+      <input id="income" type="text" inputmode="decimal" placeholder="e.g. 50,000" />
+    </label>
+
+    <label>
+      Annual tax due
+      <input id="taxDue" type="text" inputmode="decimal" placeholder="e.g. 10,000" />
+    </label>
+
+    <button id="calcBtn">Calculate</button>
+
+   <div id="result" class="result" aria-live="polite"></div>
+<div id="error" class="error" aria-live="assertive"></div>
+
+<!-- Added contact numbers -->
+<div class="contact-info">
+  <hr>
+  <p><strong>Zable telephone number:</strong> 020&nbsp;3322&nbsp;9128</p>
+  <p><strong>Autolend contact number:</strong> 020&nbsp;3322&nbsp;1916</p>
+</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
